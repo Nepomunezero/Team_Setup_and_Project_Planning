@@ -1,0 +1,26 @@
+{
+  "id": 101,
+  "amount": 5000.00,
+  "fee_amount": 100.00,
+  "balance_after": 14900.00,
+  "created_at": "2026-01-28T13:45:00",
+
+  "sender": {
+    "id": 1,
+    "full_name": "Alice Mukamana",
+    "phone_number": "+250788111111"
+  },
+
+  "receiver": {
+    "id": 2,
+    "full_name": "Jean Uwimana",
+    "phone_number": "+250788222222"
+  },
+
+  "category": {
+    "id": 1,
+    "category_name": "Send Money",
+    "category_code": "SEND_MONEY",
+    "category_fee": true
+  }
+}

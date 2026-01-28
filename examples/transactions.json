@@ -1,0 +1,10 @@
+{
+  "id": 101,
+  "sender_id": 1,
+  "receiver_id": 2,
+  "category_id": 1,
+  "amount": 5000.00,
+  "fee_amount": 100.00,
+  "balance_after": 14900.00,
+  "created_at": "2026-01-28T13:45:00"
+}
