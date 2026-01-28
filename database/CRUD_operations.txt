@@ -1,0 +1,50 @@
+
+--  select all from customers table( displays al raws_
+mysql> select * from customers;
++----+-------------------+---------------+---------------------+---------------------+
+| id | full_name         | phone_number  | created_at          | last_activity       |
++----+-------------------+---------------+---------------------+---------------------+
+|  1 | Alice Mukamana    | +250788111111 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
+|  2 | Jean Uwimana      | +250788222222 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
+|  3 | Eric Ndayishimiye | +250788333333 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
+|  4 | Claire Ingabire   | +250788444444 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
+|  5 | David Habimana    | +250788555555 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
++----+-------------------+---------------+---------------------+---------------------+
+5 rows in set (0.00 sec)
+
+
+
+-- insert into a table(create)
+mysql> insert table (full_name, phone_number, created_at, last_activity)
+    -> value
+    -> ('testing CRUD', '+333333333333')
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table (full_name, phone_number, created_at, last_activity)
+value
+('testing CRUD'' at line 1
+mysql> INSERT INTO customers (full_name, phone_number, last_activity)
+    -> VALUES ('Testuser crud', '+253333333333', NOW());
+Query OK, 1 row affected (0.01 sec)
+
+
+-- select specific row withing a table(get)
+
+mysql> 
+mysql> ELECT * FROM customers WHERE id = 1;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELECT * FROM customers WHERE id = 1' at line 1
+mysql> sELECT * FROM customers WHERE id = 1;
++----+----------------+---------------+---------------------+---------------------+
+| id | full_name      | phone_number  | created_at          | last_activity       |
++----+----------------+---------------+---------------------+---------------------+
+|  1 | Alice Mukamana | +250788111111 | 2026-01-28 18:09:59 | 2026-01-28 18:09:59 |
++----+----------------+---------------+---------------------+---------------------+
+1 row in set (0.00 sec)
+
+-- perform delete
+
+mysql> DELETE FROM system_logs
+    -> WHERE id = 1;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> 
+
