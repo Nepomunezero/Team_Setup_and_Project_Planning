@@ -92,54 +92,50 @@ Used to demonstrate how data is serialized in API responses
 
 Week 2:
 
-# Team_Setup_and_Project_Planning/
-
+Team_Setup_and_Project_Planning/
 │
-├── docs/
-|    ├── erd_diagram.
-|
-├── database/
-|    ├── database_setup.sql
-|
-|
-├── examples/
-│   ├── customer.json
-│   ├── transaction_category.json
-│   ├── system_log.json
-│   ├── Transactions.json
-│   └── complete_transaction.json
-|
-|
-|
-├── actions/              # GitHub Actions workflow configurations
+├── docs/                           # Documentation files
+│   └── erd_diagram.*               # Entity Relationship Diagram
 │
-├── api/                  # Backend API service layer
-│   ├── app.py           # Main application server
-│   ├── db.py            # Database connection and queries
-│   └── schemas.py       # Data models and validation
+├── database/                       # Database configurations
+│   └── database_setup.sql          # Database schema and setup scripts
 │
-├── data/                 # Data storage
-│   ├── processed/       # Processed data files
-│   │   └── dashboard.json
-│   ├── raw/             # Raw XML source files
-│   │   └── momo_file.xml
-│   └── db.sqlite3       # SQLite database
+├── examples/                       # Sample data files
+│   ├── customer.json               # Customer data example
+│   ├── transaction_category.json  # Transaction category mappings
+│   ├── system_log.json             # System log format example
+│   ├── Transactions.json           # Transaction data example
+│   └── complete_transaction.json   # Complete transaction record example
 │
-├── etl/                  # Extract, Transform, Load pipeline
-│   ├── parse_xml.py     # XML parsing module
-│   ├── clean_normalize.py  # Data cleaning and normalization
-│   ├── categorize.py    # Transaction categorization
-│   └── load_db.py       # Database loading module
+├── actions/                        # GitHub Actions workflow configurations
 │
-├── web/                  # Frontend application
-│   ├── index.html       # Main HTML page
-│   ├── js/              # JavaScript files
-│   └── style.css        # CSS styling
+├── api/                            # Backend API service layer
+│   ├── app.py                      # Main application server
+│   ├── db.py                       # Database connection and queries
+│   └── schemas.py                  # Data models and validation
 │
-├── .env.example          # Environment variable template
-├── .gitignore           # Git ignore rules
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+├── data/                           # Data storage
+│   ├── processed/                  # Processed data files
+│   │   └── dashboard.json          # Dashboard data output
+│   ├── raw/                        # Raw XML source files
+│   │   └── momo_file.xml           # Mobile money transaction XML
+│   └── db.sqlite3                  # SQLite database
+│
+├── etl/                            # Extract, Transform, Load pipeline
+│   ├── parse_xml.py                # XML parsing module
+│   ├── clean_normalize.py          # Data cleaning and normalization
+│   ├── categorize.py               # Transaction categorization
+│   └── load_db.py                  # Database loading module
+│
+├── web/                            # Frontend application
+│   ├── index.html                  # Main HTML page
+│   ├── js/                         # JavaScript files
+│   └── style.css                   # CSS styling
+│
+├── .env.example                    # Environment variable template
+├── .gitignore                      # Git ignore rules
+├── requirements.txt                # Python dependencies
+└── README.md                       # Project documentation
 
 ### Scrum Board
 
@@ -172,6 +168,7 @@ Designed for extensibility and backward compatibility
 **Last Updated:** January 2026  
 **Version:** 1.0.0  
 **Status:** In Development
+
 
 
 
