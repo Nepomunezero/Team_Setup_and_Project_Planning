@@ -89,6 +89,7 @@ Includes:
 One JSON object per entity (user, sms, transaction)
 One complex JSON object representing a complete transaction with nested user + sms info
 Used to demonstrate how data is serialized in API responses
+
 Week 2:
 
 Team_Setup_and_Project_Planning/
@@ -170,5 +171,6 @@ Designed for extensibility and backward compatibility
 **Last Updated:** January 2026  
 **Version:** 1.0.0  
 **Status:** In Development
+
 
 
