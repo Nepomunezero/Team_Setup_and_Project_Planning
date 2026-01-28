@@ -101,7 +101,11 @@ Team_Setup_and_Project_Planning/
 |
 |
 ├── examples/
-|    ├── json_schemas.json
+│   ├── customer.json
+│   ├── transaction_category.json
+│   ├── system_log.json
+│   ├── Transactions.json
+│   └── complete_transaction.json
 |
 |
 |
@@ -166,4 +170,5 @@ Designed for extensibility and backward compatibility
 **Last Updated:** January 2026  
 **Version:** 1.0.0  
 **Status:** In Development
+
 
