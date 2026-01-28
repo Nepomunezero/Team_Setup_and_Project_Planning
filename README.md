@@ -92,7 +92,8 @@ Used to demonstrate how data is serialized in API responses
 
 Week 2:
 
-Team_Setup_and_Project_Planning/
+# Team_Setup_and_Project_Planning/
+
 │
 ├── docs/
 |    ├── erd_diagram.
@@ -171,6 +172,7 @@ Designed for extensibility and backward compatibility
 **Last Updated:** January 2026  
 **Version:** 1.0.0  
 **Status:** In Development
+
 
 
 
