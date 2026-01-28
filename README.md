@@ -140,8 +140,17 @@ Access our project management board: [Trello Scrum Board](https://trello.com/inv
 
 ---
 
+# DATABASE DOCUMENTATION
 
+## Database Purpose
 
+This database stores processed XML data in a structured, easily accessible format. It includes active tables for current operations and reserved tables (such as user_relationship) prepared for future feature development, ensuring the system can scale and evolve without requiring major architectural changes.
+
+## Key Features
+
+Transforms hierarchical XML data into optimized relational structures
+Separates active tables from future-reserved tables for clear schema organization
+Designed for extensibility and backward compatibility
 
 
 
