@@ -1,4 +1,4 @@
-CREATE DATABASE momo_sistem;
+CREATE DATABASE momo_system;
 USE momo_system;
 
 
