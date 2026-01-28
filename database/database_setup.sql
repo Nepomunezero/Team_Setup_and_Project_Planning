@@ -13,7 +13,7 @@ CREATE TABLE customers (
 CREATE TABLE transaction_categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
     category_name VARCHAR(50) NOT NULL,
-    category_code VARCHAR(20) NOT NULL UNIQUE,
+    category_code VARCHAR(20) NOT NULL,
     category_fee BOOLEAN NOT NULL
 );
 
@@ -77,4 +77,22 @@ CREATE TABLE user_relationships (
     CONSTRAINT unique_relationship
         UNIQUE (user_id1, user_id2, relationship_type)
 );
+
+
+
+-- sample statments(queries) to insert data into our main tables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
