@@ -91,7 +91,7 @@ One complex JSON object representing a complete transaction with nested user + s
 Used to demonstrate how data is serialized in API responses
 
 Week 2:
-
+```
 Team_Setup_and_Project_Planning/
 │
 ├── docs/                           # Documentation files
@@ -136,7 +136,7 @@ Team_Setup_and_Project_Planning/
 ├── .gitignore                      # Git ignore rules
 ├── requirements.txt                # Python dependencies
 └── README.md                       # Project documentation
-
+```
 ### Scrum Board
 
 Week 1 & Week 2:
@@ -168,6 +168,7 @@ Designed for extensibility and backward compatibility
 **Last Updated:** January 2026  
 **Version:** 1.0.0  
 **Status:** In Development
+
 
 
 
