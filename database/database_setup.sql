@@ -1,4 +1,4 @@
-CREATE DATABASE momo_system;
+CREATE DATABASE momo_sistem;
 USE momo_system;
 
 
@@ -57,9 +57,8 @@ CREATE TABLE sms_raw_data (
     created_at DATETIME NOT NULL,
 
     CONSTRAINT fk_sms_user
-        FOREIGN KEY (user_id) REFERENCES customers(id),
+        FOREIGN KEY (user_id) REFERENCES customers(id)
 
-    UNIQUE (data)
 );
 
 
