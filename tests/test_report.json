@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-02T20:52:36.583466",
+  "base_url": "http://localhost:8000",
+  "total_tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "pass_rate": 100.0,
+  "results": [
+    {
+      "test": "GET /transactions with auth",
+      "passed": true,
+      "details": "Retrieved 1691 transactions"
+    },
+    {
+      "test": "GET /transactions without auth",
+      "passed": true,
+      "details": "Correctly returned 401 Unauthorized"
+    },
+    {
+      "test": "GET /transactions/1",
+      "passed": true,
+      "details": "Retrieved correct transaction"
+    },
+    {
+      "test": "GET /transactions/99999 (invalid)",
+      "passed": true,
+      "details": "Correctly returned 404 Not Found"
+    },
+    {
+      "test": "POST /transactions",
+      "passed": true,
+      "details": "Created transaction with ID 1692"
+    },
+    {
+      "test": "POST with missing required field",
+      "passed": true,
+      "details": "Correctly returned 400 Bad Request"
+    },
+    {
+      "test": "PUT /transactions/1692",
+      "passed": true,
+      "details": "Transaction updated successfully"
+    },
+    {
+      "test": "DELETE /transactions/1692",
+      "passed": true,
+      "details": "Transaction deleted successfully"
+    },
+    {
+      "test": "Verify deletion",
+      "passed": true,
+      "details": "Transaction no longer exists"
+    },
+    {
+      "test": "Filter by type=payment",
+      "passed": true,
+      "details": "Retrieved 702 payment transactions"
+    }
+  ]
+}
