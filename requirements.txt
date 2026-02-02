@@ -1,0 +1,15 @@
+# REST API Project Dependencies
+# Python 3.7+
+
+# Required for testing only
+requests>=2.28.0
+
+# All other dependencies are part of Python standard library:
+# - xml.etree.ElementTree (XML parsing)
+# - http.server (HTTP server)
+# - json (JSON handling)
+# - base64 (Authentication encoding)
+# - re (Regular expressions)
+# - time (Performance measurement)
+# - datetime (Timestamps)
+# - sys, os (System operations)
